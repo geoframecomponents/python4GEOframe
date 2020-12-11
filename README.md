@@ -18,3 +18,6 @@ Once the geoframe environment is created, a JDK 8 is installed on your computer.
 - open the Anaconda prompt
 - `conda activate geoframe_xxx`
 - `echo JAVA_HOME`
+
+## gridGEO1D
+This folder contains the notebooks and the python scripts to create a one-dimensional grid for finite volumes.

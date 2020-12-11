@@ -13,3 +13,8 @@ To create a new conda environment:
 - set in the .yaml folder
 - `conda env create -f geoframe_xxx.yaml`
 - `conda activate geoframe_xxx`
+
+Once the geoframe environment is created, a JDK 8 is installed on your computer. To know the JAVA_HOME 
+- open the Anaconda prompt
+- `conda activate geoframe_xxx`
+- `echo JAVA_HOME`

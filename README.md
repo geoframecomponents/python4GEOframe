@@ -7,6 +7,7 @@ A [conda environment](https://docs.conda.io/projects/conda/en/latest/user-guide/
 Anaconda\_envs contains all the version of the .yaml file we released. In order 
 - geoframe\_vicenza.yaml 
 - geoframe_rossano.yaml
+- geoframe_verona.yaml
 
 To create a new conda environment:
 - open the Anaconda prompt
@@ -18,6 +19,9 @@ Once the geoframe environment is created, a JDK 8 is installed on your computer.
 - open the Anaconda prompt
 - `conda activate geoframe_xxx`
 - `echo JAVA_HOME`
+
+## geoframepy
+To improve the usability, pre and post-processing, of the GEOframe components, we are developing the [geoframepy package](https://pypi.org/project/geoframepy/). 
 
 ## gridGEO1D
 This folder contains the notebooks and the python scripts to create a one-dimensional grid for finite volumes.
